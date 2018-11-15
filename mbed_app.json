@@ -1,0 +1,14 @@
+{
+  "macros": [
+    "EDEBUG_UART"
+  ],
+  "target_overrides": {
+    "*": {
+      "platform.memory-tracing-enabled": true,
+      "platform.heap-stats-enabled": true,
+      "platform.stack-stats-enabled": true,
+      "platform.stdio-baud-rate": 115200,
+      "platform.stdio-convert-newlines": true
+    }
+  }
+}

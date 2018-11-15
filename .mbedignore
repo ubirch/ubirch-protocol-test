@@ -1,0 +1,3 @@
+ubirch-protocol/mbed-os/*
+ubirch-mbed-debug/mbed-os/*
+cmake*
